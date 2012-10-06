@@ -1,0 +1,23 @@
+
+doctype 5
+html
+  head
+    title node-wiki
+    meta(charset='utf-8')
+    link(rel='stylesheet',href='page.css')
+    script(src='http://192.168.1.108:8072/doodle.js')
+    script(src='http://seajs.org/dist/sea.js')
+    script
+      seajs.config({
+        alias: {
+          'coffee': 'http://modules.seajs.org/coffee/1.3.3/coffee-script.js',
+          'jquery': 'http://modules.seajs.org/jquery/1.7.2/jquery.js'
+        },
+        preload: ['seajs/plugin-coffee']
+        });
+      seajs.use('../src/handle.coffee')
+  body
+    #byobu
+    #slide
+      a#slide-left ↼
+      a#slide-right ⇁

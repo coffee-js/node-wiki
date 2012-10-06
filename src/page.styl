@@ -1,0 +1,53 @@
+
+*
+  box-sizing border-box
+
+body
+  margin 0px
+  font-family 'wenquanyi micro hei', 'microsoft yahei'
+  background hsl(0,0,95)
+
+  #byobu
+    position absolute
+    height 100%
+    // width 400%
+
+    .card
+      width 700px
+      height 100%
+      float left
+      padding 20px 16px
+      overflow-x hidden
+      overflow-y scroll
+
+      &:hover
+        background hsl(0,0,97)
+        
+  a
+    text-decoration none
+    color hsl(240,80,85)
+
+::-webkit-scrollbar
+  width 4px
+  height 4px
+
+::-webkit-scrollbar-track
+  width 4px
+  background hsl(0,90,95)
+
+::-webkit-scrollbar-thumb
+  background hsl(0,50,80)
+  border-radius 2px
+
+#slide
+  position fixed
+  top 0px
+  right 0px
+  margin 10px
+
+  #slide-left, #slide-right
+    font-size 20px
+    margin 6px
+    background hsla(0,20,30,0.1)
+    border-radius 3px
+    color blue
