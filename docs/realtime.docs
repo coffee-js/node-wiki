@@ -1,0 +1,20 @@
+
+Realtime:
+
+Node WebSocket Server
+http://static.brandedcode.com/nws-docs/
+
+ShareJS – Live concurrent editing in your app.
+http://sharejs.org/
+
+Asynchronous Bidirectional File Transfers For Node.js via Socket.IO
+https://github.com/liamks/Delivery.js
+
+DirtyShare - Pure JavaScript Peer to Peer Filesharing
+http://gun.io/blog/dirtyshare-pure-javascript-peer-to-peer-p2p-file-sharing-nodejs-socketio/
+
+node.js and socket.io multiroom chat tutorial
+http://psitsmike.com/2011/10/node-js-and-socket-io-multiroom-chat-tutorial/
+
+Practical socket.io Benchmarking
+http://drewww.github.com/socket.io-benchmarking/

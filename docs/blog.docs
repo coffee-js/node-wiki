@@ -6,3 +6,57 @@ http://www.infoq.com/cn/articles/nodejs-asynchronous-io
 
 NodeJS 的异步编程风格
 http://www.infoq.com/cn/news/2011/09/nodejs-async-code
+
+Declaring module exports (Node.js, AMD)
+http://www.2ality.com/2012/04/declaring-module-exports.html
+
+Solving the upload progress bar problem–The History of Node.js
+http://elegantcode.com/2012/02/06/solving-the-upload-progress-bar-problemthe-history-of-node-js/
+
+虚拟研讨会：Node.js生态系统之框架、库、最佳实践
+http://www.infoq.com/cn/articles/nodejs-frameworks
+
+Face recognition with Node.JS
+http://www.nodejs-news.com/fun-with-nodejs/face-recognition-with-nodejs/
+
+当 Shell 遇上了 NodeJS
+http://www.infoq.com/cn/articles/yph-shell-meet-nodejs
+
+JavaScript on the server: Growing the Node.js Community
+https://hacks.mozilla.org/2012/01/javascript-on-the-server-growing-the-node-js-community/
+
+Why is Node.js named Node.js? [closed]
+http://stackoverflow.com/questions/5621812/why-is-node-js-named-node-js
+
+如何使用NPM来管理你的 Node.js 依赖
+http://www.infoq.com/cn/articles/msh-using-npm-manage-node.js-dependence
+
+Top node.js module creators
+http://blog.nodejitsu.com/top-node-module-creators
+
+Getting Started with npm: Isaac Schlueter
+http://camp.nodejs.org/videos/session-02_getting_started_with_npm-isaac_schlueter.html
+
+Learning node.js: my experiences and helpful resources
+http://blog.mixu.net/2010/12/30/learning-node-js-my-experiences-and-helpful-resources/
+
+博文共赏：Node.js 静态文件服务器实战
+http://ikeepu.com/bar/dytp
+
+Blog rolling with mongoDB, express and Node.js
+http://howtonode.org/express-mongodb
+
+Setting Up a Node.js Development Environment With NPM and Cloud9 IDE Installed Locally
+http://www.cambus.net/setting-up-a-node-js-development-environment-with-npm-and-cloud9-ide-installed-locally/
+
+Why node.js Matters
+http://www.olympum.com/internet/why-node-js-matters/
+
+Nodes and Jetties
+http://www.olympum.com/future/nodes-and-jetties/
+
+Learning Server-Side JavaScript with Node.js
+http://net.tutsplus.com/tutorials/javascript-ajax/learning-serverside-javascript-with-Node-js/
+
+[译]什么是Node？
+http://ued.taobao.com/blog/2011/09/02/what-is-nod/

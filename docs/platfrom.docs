@@ -1,0 +1,29 @@
+
+Platfroms:
+
+Build and deploy a Node.js application to a Windows Azure Cloud Service
+http://www.windowsazure.com/en-us/develop/nodejs/tutorials/getting-started/
+
+Node.js + Redis on OpenShift
+http://www.jmesnil.net/weblog/2012/05/02/nodejs-redis-on-openshift/
+
+Node Hosting
+https://github.com/joyent/node/wiki/Node-Hosting
+
+Windows and Node: Windows Performance Monitor
+http://dailyjs.com/2012/05/10/windows-and-node-2/
+
+Windows and Node: Getting Started
+http://dailyjs.com/2012/05/03/windows-and-node-1/
+
+Hosting Node Apps
+http://dailyjs.com/2010/03/15/hosting-nodejs-apps/
+
+Unix and Node: Daemons
+http://dailyjs.com/2012/03/29/unix-node-daemons/
+
+Where can I host a Node.js app?
+http://stackoverflow.com/questions/3648993/where-can-i-host-a-node-js-app
+
+Node.js 现可作为本地应用在 Windows 上运行
+http://www.infoq.com/cn/news/2011/11/Nodejs-Windows

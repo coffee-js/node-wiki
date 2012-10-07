@@ -1,0 +1,14 @@
+
+Functional:
+
+Functional Programming with Streams in node.js
+http://www.slideshare.net/atcrabtree/functional-programming-with-streams-in-nodejs
+
+Node.js and Asynchronous Programming with Promises
+http://spin.atomicobject.com/2012/03/14/nodejs-and-asynchronous-programming-with-promises/
+
+A tool for making and composing asynchronous promises in JavaScript
+https://github.com/kriskowal/q/
+
+Seq is an asynchronous flow control library
+https://github.com/substack/node-seq
