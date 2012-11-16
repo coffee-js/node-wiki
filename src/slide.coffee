@@ -1,23 +1,24 @@
 
 define (require, exports) ->
 
-  $ = require 'jquery'
   b = $ 'body'
 
   slide_left = ->
-    b.animate scrollLeft: (b.scrollLeft() - 700), 200
+    b.scrollLeft = (b.scrollLeft - 700)
   slide_right = ->
-    b.animate scrollLeft: (b.scrollLeft() + 700), 200
+    b.scrollLeft = (b.scrollLeft + 700)
 
-  $('#slide-left').click slide_left
-  $('#slide-right').click slide_right
+  $('#slide-left').onclick = slide_left
+  $('#slide-right').onclick = slide_right
 
-  $('body').keydown (e) ->
+  $('body').onkeydown = (e) ->
+    console.log e
     if e.keyCode is 37
       do slide_left
-      e.preventDefault()
+      e.cancelBubble = yes
     else if e.keyCode is 39
       do slide_right
-      e.preventDefault()
+      e.cancelBubble = yes
+    false
 
   return

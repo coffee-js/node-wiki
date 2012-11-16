@@ -1,28 +1,28 @@
 
 define (require, exports) ->
 
-  window.$ = require 'jquery'
+  window.$ = (str) -> document.querySelector str
 
   byobu = $ '#byobu'
 
-  show = require('./tool.coffee').show
+  show = require('./tool').show
 
-  load = require('./fetch.coffee').load
-  list = require('../docs/describe.coffee').list
+  load = require('./fetch').load
+  list = require('./describe').list
   show list
 
-  require './slide.coffee'
+  require './slide'
 
   win =
-    w: $(window).width()
-    h: $(window).height()
+    w: document.width
+    h: document.height
 
-  byobu.width 0
-  byobu.css 'padding-right': (win.w - 700)
+  byobu.style.width = 0
+  byobu.style.paddingRight = win.w - 700
   # byobu.css padding: "0px 500px 0px 200px"
 
   do render = ->
     load list.shift(), render
-    show 'width', byobu.width(), list
+    show 'width', byobu.style.width, list
 
   return

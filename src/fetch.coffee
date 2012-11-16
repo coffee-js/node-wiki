@@ -1,11 +1,10 @@
 
 define (require, exports) ->
 
-  $ = require 'jquery'
-  show = require('./tool.coffee').show
+  show = require('./tool').show
   delay = (t, f) -> setTimeout f, t
 
-  wrap = (name) -> "../docs/#{name}"
+  wrap = (name) -> "../docs/#{name}.docs"
 
   render = (data) ->
     lines = data.split '\n'
@@ -16,16 +15,22 @@ define (require, exports) ->
         .replace(/\s/g, '&nbsp;')
         .replace(/(https?:\S+)/g, '<a href="$1">$1</a>')
     text = lines.join '<br>'
-
-    $('#byobu').append "<div class='card'>#{text}</div>"
+    $('#byobu').insertAdjacentHTML 'beforeend', "<div class='card'>#{text}</div>"
+    # $('#byobu>.card:last-child').onclick = (event) ->
 
   exports.load = (name, cb) ->
     if name? and name.length? and (name.length > 0)
-      $.get (wrap name), (data) ->
+      req = new XMLHttpRequest
+      req.open 'get', (wrap name)
+      req.send()
+      req.onload = (data) ->
+        data = data.target.response
         render data
-        width = $('#byobu').innerWidth() + 700
-        show width
-        $('#byobu').width width
+        w = $('#byobu').clientWidth
+        # w = Number w.match(/\d+/)[0]
+        width = w + 700
+        $('#byobu').style.width = "#{width}px"
         (delay 0, cb) if cb?
+      # $('#byobu>.card:first-child').click()
 
   return
